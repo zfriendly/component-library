@@ -1,0 +1,94 @@
+/* Default classes */
+button {
+  border-radius: 2px;
+  padding: 5px 25px;
+  background-color: #22262a;
+  color: #22262a;
+  border: 2px solid #22262a;
+}
+.white-text {
+  color: #fafafb !important;
+}
+/* Large */
+.button-large {
+  padding: 10px 50px;
+}
+/* Standard Class */
+.button-primary {
+  background-color: #33a0ff;
+  color: #33a0ff;
+  border: 2px solid #33a0ff;
+}
+.button-danger {
+  background-color: #ff4252;
+  color: #ff4252;
+  border: 2px solid #ff4252;
+}
+.button-success {
+  background-color: #0ad00a;
+  color: #0ad00a;
+  border: 2px solid #0ad00a;
+}
+.button-warning {
+  background-color: #ffc600;
+  color: #ffc600;
+  border: 2px solid #ffc600;
+}
+/* Outline Class */
+.button-outline {
+  background-color: #fafafb;
+}
+/* Hover Classes */
+.button-primary-hover:hover {
+  background-color: #2e90e5;
+  border: 2px solid #2e90e5;
+}
+.button-danger-hover:hover {
+  background-color: #f53848;
+  border: 2px solid #f53848;
+}
+.button-success-hover:hover {
+  background-color: #07c107;
+  border: 2px solid #07c107;
+}
+.button-warning-hover:hover {
+  background-color: #ebb600;
+  border: 2px solid #ebb600;
+}
+.button-default-hover:hover {
+  background-color: #13161a;
+  border: 2px solid #13161a;
+}
+/* Faded */
+.button-primary-faded {
+  background-color: #33a0ff4a;
+  color: #33a0ff;
+  border: none;
+}
+.button-danger-faded {
+  background-color: #f538484a;
+  color: #ff4252;
+  border: none;
+}
+.button-success-faded {
+  background-color: #07c1074a;
+  color: #0ad00a;
+  border: none;
+}
+.button-warning-faded {
+  background-color: #ebb6004a;
+  color: #ffc600;
+  border: none;
+}
+.button-default-faded {
+  background-color: #13161a4a;
+  color: #22262a;
+  border: none;
+}
+.button-icons {
+  /* background-color: #33a0ff4a; */
+  background-image: url(./cart_2.png);
+  /* color: #33a0ff; */
+  padding: 5px;
+  border: none;
+}
