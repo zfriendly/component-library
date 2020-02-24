@@ -130,6 +130,7 @@ label {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  width: fit-content;
 }
 .popup {
   margin-left: 10px;
