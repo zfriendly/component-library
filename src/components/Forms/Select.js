@@ -17,7 +17,7 @@ const Select = props => {
   }
   return (
     <form>
-      <select className={classList}>
+      <select className={classList} style={props.style}>
         <option>{props.value}</option>
       </select>
     </form>
