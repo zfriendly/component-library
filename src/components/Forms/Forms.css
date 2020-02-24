@@ -1,0 +1,15 @@
+.input {
+  padding: 5px 100px 5px 5px;
+  font-size: 60%;
+}
+.input-medium {
+  padding: 9px 100px 9px 5px;
+  font-size: 65%;
+}
+.input-large {
+  padding: 13px 100px 13px 5px;
+  font-size: 70%;
+}
+label {
+  font-size: 75%;
+}
