@@ -4,6 +4,7 @@ import "./Button.css";
 const Button = props => {
   let classList = "";
   let types = ["primary", "danger", "success", "warning"];
+  let cart = url(./cart_2.png)
 
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`;
