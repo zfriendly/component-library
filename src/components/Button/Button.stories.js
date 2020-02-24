@@ -1,7 +1,8 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-
 import Button from "./Button";
+import Cart from "../Icons/cart_2.png";
+import Heart from "../Icons/hearts.png";
 
 storiesOf("Button", module)
   //Standard Buttons
@@ -75,7 +76,9 @@ storiesOf("Button", module)
   .add("Warning Faded", () => (
     <Button label="Do something" type="warning" faded />
   ))
-  .add("Default Faded", () => <Button label="Do something" faded />)
+  .add("Default Faded", () => (
+    <Button label="Do something" type="default" faded />
+  ))
   //Faded Large Buttons
   .add("Primary Faded Lg", () => (
     <Button label="Do something" type="primary" faded large />
@@ -89,6 +92,15 @@ storiesOf("Button", module)
   .add("Warning Faded Lg", () => (
     <Button label="Do something" type="warning" faded large />
   ))
-  .add("Default Faded Lg", () => <Button label="Do something" faded large />)
+  .add("Default Faded Lg", () => (
+    <Button label="Do something" type="default" faded large />
+  ))
   //Icons
-  .add("Cart Icon", () => <Button label="" icons />);
+  .add("Cart Icon", () => <Button type="primary" icon={Cart} faded />)
+  .add("Heart Icon", () => <Button type="primary" icon={Heart} faded />)
+  .add("Add to Favorites", () => (
+    <Button label="Add to Favorites" type="primary" icon={Heart} faded />
+  ))
+  .add("Add to Cart", () => (
+    <Button label="Add to Cart" type="primary" icon={Cart} faded />
+  ));

@@ -4,7 +4,6 @@ import "./Button.css";
 const Button = props => {
   let classList = "";
   let types = ["primary", "danger", "success", "warning"];
-  let cart = url(./cart_2.png)
 
   if (types.includes(props.type)) {
     classList += ` button-${props.type}`;
@@ -15,9 +14,6 @@ const Button = props => {
   if (props.hover) {
     classList += ` button-${props.type}-hover`;
   }
-  if (props.icons) {
-    classList += ` button-icons`;
-  }
   if (props.faded) {
     classList += ` button-${props.type}-faded`;
   }
@@ -27,7 +23,15 @@ const Button = props => {
   if (props.outline) {
     classList += ` button-outline`;
   }
-
+  if (props.icon) {
+    classList += ` button-icons`;
+    return (
+      <button className={classList} onClick={props.onClick}>
+        <img src={props.icon}></img>
+        {props.label}
+      </button>
+    );
+  }
   return (
     <button className={classList} onClick={props.onClick}>
       {props.label}

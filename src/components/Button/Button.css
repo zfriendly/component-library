@@ -11,7 +11,8 @@ button {
 }
 /* Large */
 .button-large {
-  padding: 10px 50px;
+  padding: 10px 25px;
+  font-size: 80%;
 }
 /* Standard Class */
 .button-primary {
@@ -61,34 +62,37 @@ button {
 }
 /* Faded */
 .button-primary-faded {
-  background-color: #33a0ff4a;
+  background-color: #33a0ff33;
   color: #33a0ff;
   border: none;
 }
 .button-danger-faded {
-  background-color: #f538484a;
+  background-color: #f5384833;
   color: #ff4252;
   border: none;
 }
 .button-success-faded {
-  background-color: #07c1074a;
+  background-color: #07c10733;
   color: #0ad00a;
   border: none;
 }
 .button-warning-faded {
-  background-color: #ebb6004a;
+  background-color: #ebb60033;
   color: #ffc600;
   border: none;
 }
 .button-default-faded {
-  background-color: #13161a4a;
+  background-color: #22262a33;
   color: #22262a;
   border: none;
 }
 .button-icons {
-  /* background-color: #33a0ff4a; */
-  background-image: url(./cart_2.png);
-  /* color: #33a0ff; */
-  padding: 5px;
+  padding: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+/* .button-icons img {
+  padding-right: 10px;
+} */
