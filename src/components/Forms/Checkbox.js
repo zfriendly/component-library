@@ -9,7 +9,7 @@ class Checkbox extends Component {
     };
   }
   onCheck = () => {
-    ({ checked: true });
+    this.setState({ checked: true });
   };
   render() {
     let labelClass = "container";
