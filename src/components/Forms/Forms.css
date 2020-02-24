@@ -120,3 +120,48 @@ label {
   width: 250px;
   height: 45px;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.popup {
+  margin-left: 10px;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+  width: 15px;
+  background-color: #fafafb;
+  border: 2px solid #22262a;
+  border-radius: 2px;
+}
+.container input:checked ~ .checkmark {
+  background-color: #22262a;
+}
+.checkmark:after {
+  content: "";
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container-blue input:checked ~ .checkmark {
+  background-color: #33a0ff;
+}
+.checkmark-blue {
+  border: 2px solid #33a0ff;
+}
