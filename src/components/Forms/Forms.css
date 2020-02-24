@@ -1,15 +1,46 @@
 .input {
-  padding: 5px 100px 5px 5px;
+  padding: 5px 100px 5px 8px;
   font-size: 60%;
+  color: #22262a;
 }
 .input-medium {
-  padding: 9px 100px 9px 5px;
+  padding: 9px 100px 9px 8px;
   font-size: 65%;
 }
 .input-large {
-  padding: 13px 100px 13px 5px;
+  padding: 13px 100px 13px 8px;
   font-size: 70%;
 }
 label {
   font-size: 75%;
+}
+.select {
+  display: block;
+  color: #22262a;
+  line-height: 1.3;
+  padding: 5px 50px 5px 8px;
+  width: 8%;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #f1f3f4;
+  border-radius: 2px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../Icons/arrow.svg");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+  background-color: white;
+}
+.select-medium {
+  padding: 9px 100px 9px 8px;
+  width: 12%;
+}
+.select-large {
+  padding: 13px 100px 13px 8px;
+  width: 12%;
+}
+.select-shaded {
+  background-color: #22262a0f;
 }

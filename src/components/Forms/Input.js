@@ -1,7 +1,7 @@
 import React from "react";
 import "./Forms.css";
 
-const Forms = props => {
+const Input = props => {
   let classList = "";
   if (props.input) {
     classList += ` input`;
@@ -18,7 +18,7 @@ const Forms = props => {
       <br></br>
       <input
         className={classList}
-        onSubmit={props.onSubmit}
+        onChange={props.onChange}
         placeholder={props.placeholder}
         name="email"
       ></input>
@@ -26,4 +26,4 @@ const Forms = props => {
   );
 };
 
-export default Forms;
+export default Input;

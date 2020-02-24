@@ -1,8 +1,8 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Button from "./Button";
-import Cart from "../Icons/cart_2.png";
-import Heart from "../Icons/hearts.png";
+import Cart from "../Icons/cart.svg";
+import Heart from "../Icons/heart.svg";
 
 storiesOf("Button", module)
   //Standard Buttons
