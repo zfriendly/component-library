@@ -93,6 +93,6 @@ button {
   align-items: center;
   justify-content: center;
 }
-/* .button-icons img {
-  padding-right: 10px;
-} */
+.image-text {
+  padding-left: 10px;
+}

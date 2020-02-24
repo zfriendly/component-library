@@ -28,7 +28,15 @@ const Button = props => {
     return (
       <button className={classList} onClick={props.onClick}>
         <img src={props.icon}></img>
-        {props.label}
+      </button>
+    );
+  }
+  if (props.icontext) {
+    classList += ` button-icons`;
+    return (
+      <button className={classList} onClick={props.onClick}>
+        <img src={props.icontext}></img>
+        <div className="image-text">{props.label}</div>
       </button>
     );
   }

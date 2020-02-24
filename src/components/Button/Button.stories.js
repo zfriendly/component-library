@@ -99,8 +99,8 @@ storiesOf("Button", module)
   .add("Cart Icon", () => <Button type="primary" icon={Cart} faded />)
   .add("Heart Icon", () => <Button type="primary" icon={Heart} faded />)
   .add("Add to Favorites", () => (
-    <Button label="Add to Favorites" type="primary" icon={Heart} faded />
+    <Button label="Add to Favorites" type="primary" icontext={Heart} faded />
   ))
   .add("Add to Cart", () => (
-    <Button label="Add to Cart" type="primary" icon={Cart} faded />
+    <Button label="Add to Cart" type="primary" icontext={Cart} faded />
   ));
