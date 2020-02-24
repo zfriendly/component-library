@@ -4,7 +4,7 @@ import Select from "./Select";
 import Arrow from "../Icons/arrow.svg";
 
 let style = {
-  background: `url(${Arrow})`
+  backgroundImage: `url(${Arrow})`
 };
 storiesOf("Select", module)
   .add("Select Sm", () => <Select value="Select" select style={style} />)
