@@ -48,9 +48,9 @@ label {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 2px 0 0 2px;
+  border-radius: 2px;
   overflow: hidden;
-  width: 90px;
+  width: 80px;
   height: 33px;
 }
 .counter-subtract {
@@ -59,7 +59,7 @@ label {
   font-weight: 700;
   border: none;
   padding: 10px;
-  width: 33%;
+  width: 33.333%;
   border-radius: 2px 0 0 2px;
   font-size: 12px;
   border-radius: 0;
@@ -70,7 +70,7 @@ label {
   font-weight: 700;
   border: none;
   padding: 10px;
-  width: 33%;
+  width: 33.333%;
   border-radius: 0 2px 2px 0;
   font-size: 12px;
   border-radius: 0;
@@ -86,4 +86,37 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.input-button-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #f1f3f4;
+  height: 33px;
+  width: 200px;
+  border-style: border-box;
+  border-radius: 2px;
+  overflow: none;
+}
+.input-button-text {
+  height: 100%;
+  width: 66.6666%;
+  padding: 0 0 0 8px;
+  font-size: 60%;
+  border-style: border-box;
+  border: none;
+}
+.input-button-button {
+  height: 100%;
+  width: 33.3333%;
+  color: white;
+  background-color: #33a0ff;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  display: flex;
+  justify-content: center;
+}
+.form-large {
+  width: 250px;
+  height: 45px;
 }

@@ -2,14 +2,16 @@ import React, { Component } from "react";
 import "./Forms.css";
 
 class Counter extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      count: 0
+      count: this.props.value
     };
   }
   increaseCount = () => {
-    this.setState({ count: this.state.count + 1 });
+    if (this.state.count < 10) {
+      this.setState({ count: this.state.count + 1 });
+    }
   };
 
   decreaseCount = () => {
